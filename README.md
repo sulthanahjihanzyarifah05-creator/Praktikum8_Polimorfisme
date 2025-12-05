@@ -11,3 +11,14 @@
 <h6>2. Dog dan Bird override speak() → ini polimorfisme runtime.</h6>
 <h6>3. Data disimpan dalam List<Animal> tetapi objek aktualnya bisa Dog dan Bird.</h6>
 <h6>4. Saat dilakukan looping: </h6> a. animal.speak() memanggil method sesuai objeknya (dynamic dispatch). b. instanceof Dog digunakan agar bisa memanggil fetch() (khusus Dog).</h6>
+
+<h3>LATIHAN 2 SHAPE</h3>
+<h4>Output</h4>
+<pre><img width="353" height="50" alt="image" src="https://github.com/user-attachments/assets/d202435a-478b-46e9-965d-96efe6269956" />
+</pre>
+<h6>1. Shape adalah abstract class → tidak bisa dibuat objeknya.</h6>
+<h6>Circle dan Rectangle meng-override method area().</h6>
+<h6>List<Shape> menyimpan berbagai objek bentuk melalui polimorfisme.</h6>
+<h6>Saat looping, Java memanggil area() sesuai objek asli (circle/rectangle).</h6>
+
+<h3>LATIHAN 3 PAYABLE</h3>
