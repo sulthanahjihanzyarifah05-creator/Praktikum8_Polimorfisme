@@ -10,6 +10,4 @@
 <h6>1. Animal punya method umum speak(). 
 <h6>2. Dog dan Bird override speak() → ini polimorfisme runtime.</h6>
 <h6>3. Data disimpan dalam List<Animal> tetapi objek aktualnya bisa Dog dan Bird.</h6>
-<h6>4. Saat dilakukan looping: </h6>
-    a. animal.speak() memanggil method sesuai objeknya (dynamic dispatch).
-    b. instanceof Dog digunakan agar bisa memanggil fetch() (khusus Dog).</h6>
+<h6>4. Saat dilakukan looping: </h6> a. animal.speak() memanggil method sesuai objeknya (dynamic dispatch). b. instanceof Dog digunakan agar bisa memanggil fetch() (khusus Dog).</h6>
